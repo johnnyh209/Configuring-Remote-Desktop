@@ -29,7 +29,7 @@ You will also want to make sure that the following services have started, or you
 * SSDP Discovery
 * UPnP Device Host
 
-Services can be managed in the `Services` app. There are several ways to open up this app. You can simply typed in `Services` in the search bar located on the taskbar. Or you can press `Windows + R` keys to open the `Run` console, and type in `services.msc`. Or you can run Command Prompt or PowerShell and enter in `services.msc`. In the `Services` app, locate each of the services listed above, open up their properties and change `Startup type:` to `Automatic`. 
+Services can be managed in the `Services` app. There are several ways to open up this app. You can simply typed in `Services` in the search box located on the taskbar. Or you can press `Windows + R` keys to open the `Run` console, and type in `services.msc`. Or you can run Command Prompt or PowerShell and enter in `services.msc`. In the `Services` app, locate each of the services listed above, open up their properties and change `Startup type:` to `Automatic`. 
 
 ![2](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/edf8a0cd-e687-4bf5-bcf1-f0d0a40252e7)
 ![3](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/3f90062f-ac82-4bd0-bb83-0d198691bafc)
@@ -54,4 +54,18 @@ It is also a good idea to enable network discovery as well. Once again, the step
 
 After this, you can log off of the administrator account, and log in as a regular domain user. 
 
+From there, we return to the Windows Server 2019 system. On the search box located in the taskbar, type in `Remote Desktop Connection` and select the entry that matches the search term you entered, `Remote Desktop Connection`. The Remote Desktop Connection window should open, where it prompts you to type in the name of the computer that you want to remote into. For me, the name of the computer that I am trying to remote into is called `josedesktop`. I enter that into the `Computer:` textbox and clicked on the `Connect` button. 
 
+![7 will ask for credentials](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/5ac2fc67-e376-47cc-b587-9842e4a5bb69)
+
+After a few seconds, my Windows Server 2019 system should be connected to josedesktop (in other words, the Windows 10 Enterprise system). Because I am still logged in to the Windows 10 Enterprise system, Remote Desktop is asking me if I want to continue remoting into the Windows 10 Enterprise system. Doing so would disconnect the domain user currently logged in. Press `Yes` to continue. 
+
+![8](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/15a5b2b1-9f5d-4ae6-8954-5110e059a03b)
+
+On the Windows 10 Enterprise system, the domain user that is logged in will see the following message, asking the user if they will allow another user (in my case, an administrator) to connect to their system: 
+
+![VirtualBoxVM_6FKJKTsoGf](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/6434c678-0315-4a94-9099-793600221ab1)
+
+The user can click `OK`, or simply do nothing and the user will be disconnected. Once you have successfully maneuvered through all of these prompts, you should be able to see the desktop of the Windows 10 Enterprise system on the screen of your Windows Server 2019. On the top of the screen, you will see the name of the computer that you have connected to using Remote Desktop. 
+
+![VirtualBoxVM_KtyS2sDZwY](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/51146ebb-a336-4467-bb38-6d26b3f26209)
