@@ -20,7 +20,7 @@ Second, it is a good idea to make sure that you have network discovery enabled. 
 4. On the left hand side of the window, click on `Change advanced sharing settings`
 5. In the network profile for the domain, enable `Turn on network discovery` and `Turn on file and printer sharing`.
 
-![Capture](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/8cc2b96d-2e19-401d-a6c3-28a560434bf3)
+![VirtualBoxVM_E9qSfOxvA7](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/f7c6476b-1845-4b87-b703-883c6628ca95)
 
 You will also want to make sure that the following services have started, or you can set them to start automatically, which is what I have done. The services are as follows:
 
