@@ -27,7 +27,7 @@ After turning on remote desktop, you will be presented with a pop-up window that
 <img src="https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/231fbe51-cd16-47dd-8a42-44f837af339f" Width="700" />
 
 **Step 5**
-On the computer that you want to **remote from** (in my case, this is my Windows Server 2019 machine), open up the `Remote Desktop Connection` app. 
+On the computer that you want to **remote from** (in my case, this is my Windows Server 2019 machine), open up the `Remote Desktop Connection` app.<br> 
 <img src="https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/11c1a105-b1c3-4846-ac47-e6b431c3bc36" Width="700" />
 
 **Step 6**
@@ -46,7 +46,7 @@ After clicking `Connect`, you will be prompted to enter in credentials. Click `O
 <img src="https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/4ed8a010-641e-4f5e-be20-7faf327b36d5" Width="700" />
 
 **Step 8**
-After clicking `OK` in the previous step, on the computer that you are trying to remote into, there will be a popup. You don't need to click on anything here.
+After clicking `OK` in the previous step, on the computer that you are trying to remote into, there will be a popup. You don't need to click on anything here.<br>
 <img src="https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/55b7ab36-8fd6-4f3b-938e-dc00341fbd9d" Width="700" />
 
 On the computer that you are remoting from, after clicking `OK`, you will then be shown the following screen. Simply click `Yes`.
