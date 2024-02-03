@@ -31,9 +31,27 @@ On the computer that you want to **remote from** (in my case, this is my Windows
 ![Step 5 Remote Desktop Connection](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/11c1a105-b1c3-4846-ac47-e6b431c3bc36)
 
 **Step 6**
-Enter the name of the system that you want to use remote desktop to connect to. In my case, the Windows 10 Enterprise system I am connecting to is named JuanPC.
+Enter the name of the system that you want to use remote desktop to connect to. In my case, the Windows 10 Enterprise system I am connecting to is named JuanPC. After entering the computer name, click on the `Connect` button.
 ![Step 6 Enter name](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/5617ba06-bcb0-463e-9898-411085581424)
 
 To find the name of a computer, you can do so in two ways:
 1. Settings > System > About
 ![Step 6 1](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/a6c317fe-5699-4d7d-af83-5e8f9bcdbf61)
+
+2. In PowerShell or CMD, use the `hostname` command
+![Step 6 2](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/acf51c71-b07e-47b9-a34b-ed8c3d0f4c47)
+
+**Step 7**
+After clicking `Connect`, you will be prompted to enter in credentials. Click `OK` after entering all required information.
+![Step 7](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/4ed8a010-641e-4f5e-be20-7faf327b36d5)
+
+**Step 8**
+After clicking `OK` in the previous step, on the computer that you are trying to remote into, there will be a popup. You don't need to click on anything here.
+![Step 8 1](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/55b7ab36-8fd6-4f3b-938e-dc00341fbd9d)
+
+On the computer that you are remoting from, after clicking `OK`, you will then be shown the following screen. Simply click `Yes`.
+![Step 8](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/538b90df-5724-4a00-890b-7829cbc408f6)
+
+If done correctly, you should see the desktop of the computer that you remoted into:
+![Step 9](https://github.com/johnnyh209/Configuring-Remote-Desktop/assets/33064730/3f9b651b-a4ea-43ef-b29f-7a9248128ecb)
+
